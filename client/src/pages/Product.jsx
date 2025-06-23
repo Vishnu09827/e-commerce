@@ -8,7 +8,7 @@ import { mobile } from "../responsive";
 import { useEffect, useState } from "react";
 import { publicRequest } from "../api/axios";
 import { useParams } from "react-router-dom";
-import { addProduct } from "../redux/cartRedux";
+import { addProduct } from "../redux/cartSlice";
 import { useDispatch } from "react-redux";
 
 const Container = styled.div``;

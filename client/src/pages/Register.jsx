@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { mobile } from "../responsive"
+import { useState } from "react";
 
 const Container = styled.div`
     width:100vw;
@@ -56,6 +57,10 @@ const Button = styled.button`
 `;
 
 const Register = () => {
+  const [userData,setUserData]=useState({
+
+  })
+  
   return (
     <Container><Wrapper>
       <Title>CREATE ACCOUNT</Title>
